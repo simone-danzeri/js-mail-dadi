@@ -19,3 +19,18 @@ if (userNumber > computerNumber) {
     winnerMessage = 'Pareggio!'
 }
 alert(winnerMessage);
+
+
+
+// MAIL
+
+// Chiedi all’utente la sua email,
+// controlla che sia nella lista di chi può accedere,
+// stampa un messaggio appropriato sull’esito del controllo.
+
+// Mi devo creare un array con le mail di chi può accedere
+// Devo chiedere all'utente la sua mail
+// Mi creo variabile FLAG per poter checkare la presenza della mail dell'utente nell'array di mail (per il prossimo punto)
+// Devo controllare se la mail fornita dall'utente è presente nell'array con le mail
+// Se la mail dell'utente è presente faccio alert con 'puoi entrare'
+// Altrimenti faccio alert con 'non puoi entrare'
