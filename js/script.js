@@ -40,6 +40,7 @@ let alertMessage = 'Mi spiace ma non sei nella lista'
 // Devo controllare se la mail fornita dall'utente è presente nell'array con le mail
 for (let i = 0; i < mailList.length; i++) {
     everyMail = mailList[i];
+    // Se la mail dell'utente è presente faccio alert con 'puoi entrare'
     if (userMail === everyMail) {
         flagMail = true;
         alertMessage = 'Sei nella lista quindi puoi entrare!';
@@ -47,5 +48,3 @@ for (let i = 0; i < mailList.length; i++) {
 }
 console.log(alertMessage);
 alert(alertMessage);
-// Se la mail dell'utente è presente faccio alert con 'puoi entrare'
-// Altrimenti faccio alert con 'non puoi entrare'
